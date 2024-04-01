@@ -44,3 +44,8 @@
   a_set.insert(2);  //{0, 2}
   ```
 - soreted in descending: `std::set<int, greater<int>> rev_set` it will have {2, 0}.
+#### Unordered map (`unordered_map`)
+- `unordered_map<string, double> umap; // Declaration`
+- `umap["a"] = 97;` or `umap.insert({"a", 97})` for insertion.
+- Element non-existant `umap.find(key) == umap.end()`
+- Erase `umap.erase(key)` or `umap.erase(umap.begin())` or `auto itr = umap.being(); it++; umap.erase(it, umap.end()); // delete all except for the first`
