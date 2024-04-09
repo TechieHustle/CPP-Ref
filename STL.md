@@ -8,7 +8,7 @@
 - `+` can be used to concatenate two strings.
 - 
 #### Vector
-  #### Initialization
+  ##### Initialization
     - `vector<int> a;`
     - `vector<int> a(10); //vector of int type with 10 items initialized to 0`
     - `vector<int> a(10, 1); // vector of 10 items int type initialized to 1`
