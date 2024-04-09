@@ -1,5 +1,5 @@
 #### Strings
-- `stoi()` to get integer from string.\\
+- `stoi()` to get integer from string. \
   NOTE: In case of negative numbers, they'll be rotated.
 - Indexing a string would result in a char.
   ```cpp
@@ -7,6 +7,15 @@
   ```
 - `+` can be used to concatenate two strings.
 - 
+#### Vector
+  #### Initialization
+    - `vector<int> a;`
+    - `vector<int> a(10); //vector of int type with 10 items initialized to 0`
+    - `vector<int> a(10, 1); // vector of 10 items int type initialized to 1`
+    - `vector<vector<int>> a(10); //2-D vector with 10 rows`
+    - `vector<vector<int>> a(10, vector<int>(2, 1)); // 2-D vector 10x2 initialized to 1`
+  - **Add**: `a.push_back(1)` append 10 at the end of vector.
+  - **Insert:** 
 #### Tuple
 - Used to store a collection of different types. The values assigned must be in the order of declaration.
   ```cpp
