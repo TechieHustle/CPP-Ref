@@ -6,16 +6,17 @@
   std::string s = "123"; \\s[0] is a char '1' with ascii 49
   ```
 - `+` can be used to concatenate two strings.
-- 
+---
 #### Vector
   ##### Initialization
-    - `vector<int> a;`
-    - `vector<int> a(10); //vector of int type with 10 items initialized to 0`
-    - `vector<int> a(10, 1); // vector of 10 items int type initialized to 1`
-    - `vector<vector<int>> a(10); //2-D vector with 10 rows`
-    - `vector<vector<int>> a(10, vector<int>(2, 1)); // 2-D vector 10x2 initialized to 1`
-  - **Add**: `a.push_back(1)` append 10 at the end of vector.
-  - **Insert:** 
+  - `vector<int> a;`
+  - `vector<int> a(10); //vector of int type with 10 items initialized to 0`
+  - `vector<int> a(10, 1); // vector of 10 items int type initialized to 1`
+  - `vector<vector<int>> a(10); //2-D vector with 10 rows`
+  - `vector<vector<int>> a(10, vector<int>(2, 1)); // 2-D vector 10x2 initialized to 1`
+- **Add**: `a.push_back(1)` append 10 at the end of vector.
+- **Insert:**
+---
 #### Tuple
 - Used to store a collection of different types. The values assigned must be in the order of declaration.
   ```cpp
@@ -36,7 +37,7 @@
   cout << "The modified values of tuple are : ";
   cout << get<0>(geek) << " " << get<1>(geek) << " " << get<2>(geek) << endl;
   ```
-
+---
 #### Unordered set (most operations are O(1) - amortized constant)
   ```cpp
   std::unordered_set<std::string> str_lkup;
@@ -44,6 +45,7 @@
   str_lkup.erase("ab");  // remove
   ```
   - set of tuple: `std::unordered_set<std::tuple<int, int>> tup_lkup;`
+---
 #### Set
 - Stores collections in sorted fashion and unique numbers.
   ```cpp
