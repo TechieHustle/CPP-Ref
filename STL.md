@@ -94,7 +94,7 @@
   ```
 #### Class
 - For BT Node
-  ```
+```
 template <typename T>
 class BinaryTreeNode {
 public:
@@ -108,5 +108,5 @@ public:
   // Constructor (initialize with data)
   BinaryTreeNode(const T& value) : data(value), left(nullptr), right(nullptr) {}
 };
-  ```
+```
 - Object creation: `int main() { BinaryTreeNode t1(5); };`
